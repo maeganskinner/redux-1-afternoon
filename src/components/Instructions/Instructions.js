@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import store, { ADD_INSTRUCTION } from "./../../store";
+import store, { ADD_INSTRUCTION, ADD_RECIPE} from "./../../store";
 
 class Instructions extends Component {
   constructor(props) {
